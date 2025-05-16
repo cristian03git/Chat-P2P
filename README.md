@@ -18,6 +18,8 @@ pip install customtkinter
 
 
 ## 🚀 Avvio dell'applicazione.
+L'avvio dell'applicazione prevede la creazione di un peer; per effettuare la connessione tra due o più peer, bisogna crearne ulteriori.<br>
+In virtù di questo bisogna seguire la seguente procedura.
 1. Bisogna assicurarsi che tutti i peer si trovano sulla **stessa rete** (_LAN o internet con IP pubblico_);
 2. Per avviare il programma:
 
@@ -103,6 +105,8 @@ pip install customtkinter
 
 
 ## 🚀 Launching the Application.
+Launching the application creates a peer; to establish a connection between two or more peers, additional ones must be created.<br>
+Therefore, the following procedure should be followed.
 1. Ensure all peers are on the **same network** _LAN or internet with public IP_);
 2. To run the program:
 
