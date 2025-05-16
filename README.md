@@ -1,4 +1,4 @@
-🇮🇹# 💬 CHAT P2P(Peer-to-Peer) con Interfaccia Grafica.
+# 🇮🇹 💬 CHAT P2P(Peer-to-Peer) con Interfaccia Grafica.
 
 ## 👨‍💻 Autore: Cristian Buttaro.
 Questa è un'applicazione di Chat Peer-to-Peer (P2P) scritta in **_Python_**, con un'interfaccia moderna realizzata con **CustomTkinter**. <br>Consente a più utenti di chattare tra loro tramite connessione socket, **senza bisogno di un server centrale**.
@@ -84,12 +84,12 @@ README.md      #Documentazione e guida d'uso
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🇬🇧 ## 💬 P2P 
-### 👨‍💻 Author: Cristian Buttaro.
+# 🇬🇧 💬 P2P 
+## 👨‍💻 Author: Cristian Buttaro.
 This is a **_Python_** Peer-to-Peer (P2P) Chat application with a modern interface built using **CustomTkinter**.<br>It allows multiple users to chat with each other via socket connection, **without the need for a central server**.
 
 
-### 🧰 Requirements.
+## 🧰 Requirements.
 Since it’s written in Python, you’ll need Python version 3.8 or higher. The following libraries are required:
 - _`customtkinter`_;
 - _`tkinter`_ (_already included with Python_);
@@ -102,7 +102,7 @@ pip install customtkinter
 ```
 
 
-### 🚀 Launching the Application.
+## 🚀 Launching the Application.
 1. Ensure all peers are on the **same network** _LAN or internet with public IP_);
 2. To run the program:
 
@@ -113,7 +113,7 @@ python p2pchat.py
 3. Enter your **username** in the initial dialog window.
 
 
-### 🖥️ Interface Features.
+## 🖥️ Interface Features.
 - **HEADER**: Displays the username and listening port.
 - **LOCAL AND PUBLIC IP**: Shown at the top of the window.
 - **MESSAGES**:
@@ -127,41 +127,41 @@ python p2pchat.py
     - Press `Shift+Enter` for a new line.
 
 
-### 🌐 How to Connect to a Peer.
+## 🌐 How to Connect to a Peer.
 1. Obtain the **_IP:PORTA_** address of the peer you want to connect to. If you’re running multiple peers on a single device using multiple terminals, just use the **📋 Copia IP** button on the peer you want to connect to.
 2. Enter the address in the field below the chat (e.g. 192.168.1.5:5000). You can also use **📥 Incolla IP** if the IP:PORT is already copied.
 3. Click on **🔗 Connetti a peer** to initiate the connection.
 
 
-### 🎨 Graphic Theme.
+## 🎨 Graphic Theme.
 You can switch between the **_light_** and **_dark_** theme by clicking the **🌞 Cambia Tema 🌙** button.
 
 
-### 🔊 Audio Notifications.
+## 🔊 Audio Notifications.
 A sound can play for each sent message, depending on the operating system:
 - **Windows**:  system sound;
 - **macOS**: `Pop.aiff` sound.
 - **Linux/Unix o Altri**: stampa `🔔 Nuovo messaggio` in the terminal.
 
 
-### ❌ Exiting the App.
+## ❌ Exiting the App.
 You can exit the app by simply closing the GUI window.<br>
 When a peer window is closed, all its connections to other peers are safely terminated—even if it’s the only active peer left.
 
 
-### 📁 Project Structure
+## 📁 Project Structure
 ```
 p2pchat.py     #Main source code of the application
 README.md      #Documentation and usage guide
 ```
 
 
-### ⚠️ Warnings
+## ⚠️ Warnings
 - NNo encryption is implemented: communication is **not secure** for public use.
 - The app is intended for testing, practice, or use on local networks; it can also be adapted/extended for multi-device use across different networks.
 
 
-### 📌 Possible Future Improvements:
+## 📌 Possible Future Improvements:
 - 🔒 End-to-end encryption of messages (AES/RSA);
 - 📁 File and Image transfer;
 - 👤 Adding avantars or custom colors for users;
