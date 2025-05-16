@@ -1,6 +1,7 @@
 # 💬 CHAT P2P - Peer-to-Peer con Interfaccia Grafica.
 
-Questa è un'applicazione di Chat Peer-to-Peer (P2P) scritta in **_Python_**, con un'interfaccia moderna realizzata con **CustomTkinter**. Consente a più utenti di chattare tra loro tramite connessione socket, **senza bisogno di un server centrale**.
+## 👨‍💻 Autore: Cristian Buttaro.
+Questa è un'applicazione di Chat Peer-to-Peer (P2P) scritta in **_Python_**, con un'interfaccia moderna realizzata con **CustomTkinter**. <br>Consente a più utenti di chattare tra loro tramite connessione socket, **senza bisogno di un server centrale**.
 
 
 ## 🧰 Requisiti.
@@ -8,7 +9,7 @@ Essendo stata scritta in Python, è ovvio che si deve avere Python nella version
 - _`customtkinter`_;
 - _`tkinter`_ (_già incluso in Python_);
 - _`urllib.request`_ (_già incluso_);
-- _`socket`_, _`threading`_, _`datetime`_, _`platform`_, _`sys`_, _`os`_(_già inclusi_);
+- _`socket`_, _`threading`_, _`datetime`_, _`platform`_, _`sys`_, _`os`_(_già inclusi_);<br>
 Quindi, laddove non fosse presente, bisogna installare CustomTkinter:
 
 ```bash
@@ -76,10 +77,7 @@ README.md      # Documentazione e guida d'uso
 
 
 ## 📌 Possibili miglioramenti futuri:
-- 🔒 Cifratura end-to-end dei messaggi (AES/RSA)
-- 📁 Invio file e immagini
-- 👤 Aggiunta avatar o colori personalizzati per utenti
-- 🌍 Visualizzazione geolocalizzazione peer
-
-
-## 👨‍💻 Autore: Cristian Buttaro.
+- 🔒 Cifratura end-to-end dei messaggi (AES/RSA);
+- 📁 Invio file e immagini;
+- 👤 Aggiunta avatar o colori personalizzati per utenti;
+- 🌍 Visualizzazione geolocalizzazione peer.
