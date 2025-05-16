@@ -1,4 +1,4 @@
-# 🇮🇹 💬 CHAT P2P(Peer-to-Peer) con Interfaccia Grafica.
+# 🇮🇹 💬 CHAT P2P (Peer-to-Peer) con Interfaccia Grafica.
 
 ## 👨‍💻 Autore: Cristian Buttaro.
 Questa è un'applicazione di Chat Peer-to-Peer (P2P) scritta in **_Python_**, con un'interfaccia moderna realizzata con **CustomTkinter**. <br>Consente a più utenti di chattare tra loro tramite connessione socket, **senza bisogno di un server centrale**.
@@ -64,7 +64,7 @@ Si può chiudere l'app, chiudendo direttamente la finestra della GUI.
 Con la chiusura della finestra di quel determinato peer, vengono terminate le connessioni con gli altri peer, in modo sicuro; così anche se si ha un unico peer attivo.
 
 
-## 📁 Struttura del progetto
+## 📁 Struttura del progetto.
 ```
 p2pchat.py     #Codice sorgente principale dell'applicazione
 README.md      #Documentazione e guida d'uso
@@ -84,7 +84,7 @@ README.md      #Documentazione e guida d'uso
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 🇬🇧 💬 P2P 
+# 🇬🇧 💬 P2P Chat with Graphical Interface. 
 ## 👨‍💻 Author: Cristian Buttaro.
 This is a **_Python_** Peer-to-Peer (P2P) Chat application with a modern interface built using **CustomTkinter**.<br>It allows multiple users to chat with each other via socket connection, **without the need for a central server**.
 
@@ -149,14 +149,14 @@ You can exit the app by simply closing the GUI window.<br>
 When a peer window is closed, all its connections to other peers are safely terminated—even if it’s the only active peer left.
 
 
-## 📁 Project Structure
+## 📁 Project Structure.
 ```
 p2pchat.py     #Main source code of the application
 README.md      #Documentation and usage guide
 ```
 
 
-## ⚠️ Warnings
+## ⚠️ Warnings.
 - NNo encryption is implemented: communication is **not secure** for public use.
 - The app is intended for testing, practice, or use on local networks; it can also be adapted/extended for multi-device use across different networks.
 
